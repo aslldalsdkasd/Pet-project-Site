@@ -1,0 +1,20 @@
+[project]
+name = "pet-project-site"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Макаров Артём",email = "makarovartem.09@mail.ru"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.141.1,<0.142.0)",
+    "sqlalchemy (>=2.0.52,<3.0.0)",
+    "celery (>=5.6.3,<6.0.0)",
+    "pydantic (>=2.13.5,<3.0.0)",
+    "uvicorn (>=0.52.4,<0.53.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
